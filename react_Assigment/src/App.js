@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Serching from './Serching';
 // import Header from './Component/Header';
 // import Sidbar from './Component/Sidbar';
 // import Footer from './Component/Footer';
@@ -14,10 +15,10 @@ import './App.css';
 // import Button from './event/Button';
 // import Ckeckbox from './event/Ckeckbox';
 // import Toggle from './event/Toggle';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Croud_With_Routing/Home';
-import User from './Croud_With_Routing/User';
-import Login from './Croud_With_Routing/Login';
+// import { Route, Routes } from 'react-router-dom';
+// import Home from './Croud_With_Routing/Home';
+// import User from './Croud_With_Routing/User';
+// import Login from './Croud_With_Routing/Login';
 
 
 
@@ -40,14 +41,16 @@ function App() {
       {/* <Crud_Localsession/>
       <br/>
       <br/>
-
+      
       <Sessationstorage/> */}
 
-<Routes>
+{/* <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/User" element={<User/>} />
         <Route path="/login" element={<Login/>} />
-      </Routes>
+      </Routes> */}
+      <Serching/>
+      
     </>
   );
 }
