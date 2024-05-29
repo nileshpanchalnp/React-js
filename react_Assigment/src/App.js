@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Serching from './Serching';
+import Display from './Crud_with_redux/Display';
+import Input from './Crud_with_redux/Input';
+// import Serching from './Serching';
 // import Header from './Component/Header';
 // import Sidbar from './Component/Sidbar';
 // import Footer from './Component/Footer';
@@ -49,7 +51,12 @@ function App() {
         <Route path="/User" element={<User/>} />
         <Route path="/login" element={<Login/>} />
       </Routes> */}
-      <Serching/>
+      {/* <Serching/> */}
+
+      <Input/>
+
+      <br/>
+      <Display/>
       
     </>
   );
